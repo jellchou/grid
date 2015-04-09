@@ -3,7 +3,7 @@ package grid.text.selector;
 import grid.common.TextUtils;
 
 /**
- * CnTextSelector.java 2013-9-20 œ¬ŒÁ02:57:15
+ * CnTextSelector.java 2013-9-20 √è√Ç√é√ß02:57:15
  * 
  * @Author George Bourne
  */
@@ -22,7 +22,7 @@ public class CnTextSelector extends CommonTextSelector {
 				curLen = i;
 				if (curLen < minSelectLen) {
 					pos++;
-					adjustCurLen();
+					super.adjustCurLen();
 				}
 				return;
 			}
